@@ -55,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1e06276e1ac82b147b67beab6cca905f, type: 3}
+        m_Texture: {fileID: 2800000, guid: dbf3a79513ae14d42b4b5994f1bf2cbc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -91,7 +91,7 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 1
     - _AlphaToMask: 0
-    - _Blend: 0.1
+    - _Blend: 0
     - _BlendModePreserveSpecular: 0
     - _Blurvalue: 0.005
     - _BumpScale: 1
@@ -117,7 +117,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 0
     - _RimPower: 0
-    - _Rim_Power: 7.48
+    - _Rim_Power: 0.1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -129,15 +129,15 @@ Material:
     - _ZTest: 8
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _base: 0.9
+    - _base: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Default_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Default_color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FillAmount: {r: 0, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Rim_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Rim_color: {r: 0.2725525, g: 0.41509432, b: 0.23691703, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
