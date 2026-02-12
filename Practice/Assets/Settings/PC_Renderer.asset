@@ -16,6 +16,8 @@ MonoBehaviour:
   settings:
     textureName: _CustomSceneColor
     renderPassEvent: 300
+    blurPasses: 1
+    downsample: 2
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
